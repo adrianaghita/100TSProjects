@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway&display=swap");
+
+$primary-font: "Raleway", sans-serif;
+$secondary-font: "Playfair Display", serif;
+$regular: 400;
+$semi-bold: 600;
+$bold: 900;
+
+$primary-color: rgb(33, 32, 37);
+$secondary-color: #455d7a;
+$accent-color: #f95959;
+$bright-color: #e3e3e3;
+
+@mixin button {
+  border-radius: 4px;
+  border: none;
+  color: $accent-color;
+  font-family: $primary-font;
+  font-size: 14px;
+  padding: 11px;
+  text-align: center;
+}
