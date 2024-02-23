@@ -1,0 +1,29 @@
+@import "/src/index.scss";
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-input {
+  padding: 11px;
+  font-size: 14px;
+  font-family: $primary-font;
+}
+
+.task-list {
+  & li {
+    font-family: $primary-font;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.button {
+  @include button;
+  margin-left: 1rem;
+}

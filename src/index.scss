@@ -14,9 +14,23 @@ $bright-color: #e3e3e3;
 @mixin button {
   border-radius: 4px;
   border: none;
-  color: $accent-color;
+  background-color: $accent-color;
+  color: $bright-color;
   font-family: $primary-font;
   font-size: 14px;
   padding: 11px;
   text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+h2 {
+  color: $secondary-color;
+  font-family: $secondary-font;
+  font-size: 3rem;
+  font-weight: $bold;
 }
