@@ -34,6 +34,7 @@ const Todo = () => {
         <ul className={styles[`task-list`]}>
           {tasks.map((task, index) => (
             <li key={index}>
+              <input type="checkbox" />
               {task}
               <button
                 onClick={() => removeTask(task)}
