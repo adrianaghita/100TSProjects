@@ -1,0 +1,55 @@
+@import "/src/index.scss";
+
+.wrong {
+  background-color: #f87171;
+}
+
+.correct {
+  background-color: #8dd1bd;
+}
+
+.container {
+  background-color: $bright-color;
+  padding: 2rem;
+  border-radius: 5px;
+
+  & p {
+    text-align: center;
+    font-family: $secondary-font;
+  }
+}
+
+.question {
+  font-family: $secondary-font;
+  font-weight: $regular;
+  text-align: center;
+}
+
+.responses {
+  list-style: none;
+  & li {
+    font-family: $primary-font;
+    margin-bottom: 2rem;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+  }
+}
+
+.next-button,
+.reset-button {
+  @include button;
+  display: flex;
+  margin: auto;
+  width: 10rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.score-message {
+  font-family: $secondary-font;
+  font-size: 1.5rem;
+  font-weight: $semi-bold;
+}
