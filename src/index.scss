@@ -23,9 +23,8 @@ $bright-color: #e3e3e3;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  margin: auto;
+  margin: 80px 50px 50px 50px;
+  display: grid;
 }
 
 h2 {
@@ -33,4 +32,12 @@ h2 {
   font-family: $secondary-font;
   font-size: 3rem;
   font-weight: $bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p,
+q,
+li {
+  color: $primary-color;
 }
