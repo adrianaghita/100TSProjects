@@ -60,7 +60,7 @@ const Quiz = () => {
   };
   return (
     <>
-      <h2>3. Quiz </h2>
+      <h2>4. Quiz </h2>
       {result ? (
         <div className={styles.container}>
           {score <= 1 && (

@@ -32,7 +32,7 @@ const RandomColor = () => {
 
   return (
     <div>
-      <h2>4. Random Color Generator</h2>
+      <h2>3. Random Color Generator</h2>
       <section className={styles.buttons}>
         <button
           className={`${styles.button} ${
