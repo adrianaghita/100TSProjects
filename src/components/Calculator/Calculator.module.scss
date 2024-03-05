@@ -1,0 +1,26 @@
+@import "/src/index.scss";
+
+.calculator {
+  width: 400px;
+  margin: auto;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+  font-family: $primary-font;
+  font-size: 1.5rem;
+  border: 0.5px solid, $bright-color;
+}
+
+.calculator-total {
+  font-family: $primary-font;
+  font-size: 1.5rem;
+  text-align: end;
+  background-color: $bright-color;
+  margin-bottom: 4px;
+  height: 2rem;
+}

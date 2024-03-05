@@ -1,3 +1,4 @@
+import Calculator from "./components/Calculator/Calculator";
 import Quiz from "./components/Quiz/Quiz";
 import RandomColor from "./components/RandomColor/RandomColor";
 import RandomImage from "./components/RandomImage/RandomImage";
@@ -13,6 +14,7 @@ function App() {
       <RandomColor />
       <RandomImage />
       <Quiz />
+      <Calculator />
       <TicTacToe />
     </>
   );
